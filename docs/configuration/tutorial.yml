@@ -1,0 +1,25 @@
+---
+
+  # 15193f6b-276b-4371-970f-849f7b55a033
+  bots:
+    telegram:
+      token: 233259927:AAGniUoEca0evsXh4BHstELCZHDliNGVV_Q
+
+  api:
+    echoer:
+      service: simple
+      actions:
+        hello:
+          - type: text
+            answer: Привет, это туториал бот для платформы BaaS. Пишите ему что хотите, а он будет повторять это
+        echo:
+          - type: text
+            answer: $text
+      commands:
+        start:
+          actions:
+            - hello
+      messages:
+        any:
+          actions:
+            - echo
