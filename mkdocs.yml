@@ -1,0 +1,6 @@
+pages:
+  - Конфигурация:
+      - Введение: 'configuration/intro.md'
+      - Глоссарий: 'configuration/glossary.md'
+      - Туториал: 'configuration/tutorial.md'
+  - О проекте: 'about.md'
