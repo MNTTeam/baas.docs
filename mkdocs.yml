@@ -1,3 +1,4 @@
+site_name: BaaS
 pages:
   - Конфигурация:
       - Введение: 'configuration/intro.md'
